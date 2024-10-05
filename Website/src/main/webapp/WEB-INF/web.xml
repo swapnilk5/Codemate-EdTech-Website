@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="//jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>login_admin</display-name>
+    <servlet-name>login_admin</servlet-name>
+    <servlet-class>controller.login_admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login_admin</servlet-name>
+    <url-pattern>/login_admin</url-pattern>
+  </servlet-mapping>
+  <display-name>Website1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>saveDataa</display-name>
+    <servlet-name>saveDataa</servlet-name>
+    <servlet-class>controller.saveDataa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>saveDataa</servlet-name>
+    <url-pattern>/saveDataa</url-pattern>
+  </servlet-mapping>
+</web-app>
